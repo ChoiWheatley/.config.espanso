@@ -2885,7 +2885,7 @@ matches:
     replace: ♻️
   - trigger: ':environment:'
     replace: ♻️
-  - trigger: ':white check mark:'
+  - trigger: ':check:'
     replace: ✅
   - trigger: ':u6307:'
     replace: "\U0001F22F️"

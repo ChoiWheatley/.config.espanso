@@ -72,4 +72,15 @@ matches:
   - trigger: ":-:"
     replace: "➖"
 
+  - trigger: ":racketime:"
+    replace: "https://github.com/curinginnos/racketime-api/"
+
+  - trigger: ":cu:"
+    replace: "https://app.clickup.com/t/"
+
+  - trigger: ":pr:"
+    replace: "https://github.com/curinginnos/racketime-api/pull/"
+
+  - trigger: ":br:"
+    replace: "https://github.com/curinginnos/racketime-api/branches"
   # And much more! For more information, visit the docs: https://espanso.org/docs/
