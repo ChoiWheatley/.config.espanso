@@ -39,3 +39,10 @@ toggle_key: OFF
 # For a list of all the available options, visit the official docs at: https://espanso.org/docs/
 
 show_icon: true
+# Wayland non-US keyboard layout
+# @see https://espanso.org/docs/install/linux/#wayland-compile
+keyboard_layout:
+  layout: "us"
+
+
+search_shortcut: CMD+SPACE
