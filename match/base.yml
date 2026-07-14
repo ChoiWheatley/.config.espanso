@@ -82,5 +82,5 @@ matches:
     replace: "https://github.com/curinginnos/racketime-api/pull/"
 
   - trigger: ":br:"
-    replace: "https://github.com/curinginnos/racketime-api/branches"
+    replace: "https://github.com/curinginnos/racketime-api/tree/"
   # And much more! For more information, visit the docs: https://espanso.org/docs/
