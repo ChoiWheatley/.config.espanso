@@ -1,0 +1,515 @@
+# Complete Unicode Box Drawing block (U+2500–U+257F).
+# Direction order is up, down, left, right: :box-ur: = └; :box-udlr: = ┼.
+# Light is the default; where available use :box-heavy-…: or :box-double-…:.
+matches:
+  # BOX DRAWINGS LIGHT HORIZONTAL
+  - trigger: ":box-lr:"
+    replace: "─"
+
+  # BOX DRAWINGS HEAVY HORIZONTAL
+  - trigger: ":box-heavy-lr:"
+    replace: "━"
+
+  # BOX DRAWINGS LIGHT VERTICAL
+  - trigger: ":box-ud:"
+    replace: "│"
+
+  # BOX DRAWINGS HEAVY VERTICAL
+  - trigger: ":box-heavy-ud:"
+    replace: "┃"
+
+  # BOX DRAWINGS LIGHT TRIPLE DASH HORIZONTAL
+  - trigger: ":box-dash3-lr:"
+    replace: "┄"
+
+  # BOX DRAWINGS HEAVY TRIPLE DASH HORIZONTAL
+  - trigger: ":box-heavy-dash3-lr:"
+    replace: "┅"
+
+  # BOX DRAWINGS LIGHT TRIPLE DASH VERTICAL
+  - trigger: ":box-dash3-ud:"
+    replace: "┆"
+
+  # BOX DRAWINGS HEAVY TRIPLE DASH VERTICAL
+  - trigger: ":box-heavy-dash3-ud:"
+    replace: "┇"
+
+  # BOX DRAWINGS LIGHT QUADRUPLE DASH HORIZONTAL
+  - trigger: ":box-dash4-lr:"
+    replace: "┈"
+
+  # BOX DRAWINGS HEAVY QUADRUPLE DASH HORIZONTAL
+  - trigger: ":box-heavy-dash4-lr:"
+    replace: "┉"
+
+  # BOX DRAWINGS LIGHT QUADRUPLE DASH VERTICAL
+  - trigger: ":box-dash4-ud:"
+    replace: "┊"
+
+  # BOX DRAWINGS HEAVY QUADRUPLE DASH VERTICAL
+  - trigger: ":box-heavy-dash4-ud:"
+    replace: "┋"
+
+  # BOX DRAWINGS LIGHT DOWN AND RIGHT
+  - trigger: ":box-dr:"
+    replace: "┌"
+
+  # BOX DRAWINGS DOWN LIGHT AND RIGHT HEAVY
+  - trigger: ":box-d-r-heavy:"
+    replace: "┍"
+
+  # BOX DRAWINGS DOWN HEAVY AND RIGHT LIGHT
+  - trigger: ":box-d-heavy-r:"
+    replace: "┎"
+
+  # BOX DRAWINGS HEAVY DOWN AND RIGHT
+  - trigger: ":box-heavy-dr:"
+    replace: "┏"
+
+  # BOX DRAWINGS LIGHT DOWN AND LEFT
+  - trigger: ":box-dl:"
+    replace: "┐"
+
+  # BOX DRAWINGS DOWN LIGHT AND LEFT HEAVY
+  - trigger: ":box-d-l-heavy:"
+    replace: "┑"
+
+  # BOX DRAWINGS DOWN HEAVY AND LEFT LIGHT
+  - trigger: ":box-d-heavy-l:"
+    replace: "┒"
+
+  # BOX DRAWINGS HEAVY DOWN AND LEFT
+  - trigger: ":box-heavy-dl:"
+    replace: "┓"
+
+  # BOX DRAWINGS LIGHT UP AND RIGHT
+  - trigger: ":box-ur:"
+    replace: "└"
+
+  # BOX DRAWINGS UP LIGHT AND RIGHT HEAVY
+  - trigger: ":box-u-r-heavy:"
+    replace: "┕"
+
+  # BOX DRAWINGS UP HEAVY AND RIGHT LIGHT
+  - trigger: ":box-u-heavy-r:"
+    replace: "┖"
+
+  # BOX DRAWINGS HEAVY UP AND RIGHT
+  - trigger: ":box-heavy-ur:"
+    replace: "┗"
+
+  # BOX DRAWINGS LIGHT UP AND LEFT
+  - trigger: ":box-ul:"
+    replace: "┘"
+
+  # BOX DRAWINGS UP LIGHT AND LEFT HEAVY
+  - trigger: ":box-u-l-heavy:"
+    replace: "┙"
+
+  # BOX DRAWINGS UP HEAVY AND LEFT LIGHT
+  - trigger: ":box-u-heavy-l:"
+    replace: "┚"
+
+  # BOX DRAWINGS HEAVY UP AND LEFT
+  - trigger: ":box-heavy-ul:"
+    replace: "┛"
+
+  # BOX DRAWINGS LIGHT VERTICAL AND RIGHT
+  - trigger: ":box-udr:"
+    replace: "├"
+
+  # BOX DRAWINGS VERTICAL LIGHT AND RIGHT HEAVY
+  - trigger: ":box-ud-r-heavy:"
+    replace: "┝"
+
+  # BOX DRAWINGS UP HEAVY AND RIGHT DOWN LIGHT
+  - trigger: ":box-u-heavy-dr:"
+    replace: "┞"
+
+  # BOX DRAWINGS DOWN HEAVY AND RIGHT UP LIGHT
+  - trigger: ":box-d-heavy-ur:"
+    replace: "┟"
+
+  # BOX DRAWINGS VERTICAL HEAVY AND RIGHT LIGHT
+  - trigger: ":box-ud-heavy-r:"
+    replace: "┠"
+
+  # BOX DRAWINGS DOWN LIGHT AND RIGHT UP HEAVY
+  - trigger: ":box-d-ur-heavy:"
+    replace: "┡"
+
+  # BOX DRAWINGS UP LIGHT AND RIGHT DOWN HEAVY
+  - trigger: ":box-u-dr-heavy:"
+    replace: "┢"
+
+  # BOX DRAWINGS HEAVY VERTICAL AND RIGHT
+  - trigger: ":box-heavy-udr:"
+    replace: "┣"
+
+  # BOX DRAWINGS LIGHT VERTICAL AND LEFT
+  - trigger: ":box-udl:"
+    replace: "┤"
+
+  # BOX DRAWINGS VERTICAL LIGHT AND LEFT HEAVY
+  - trigger: ":box-ud-l-heavy:"
+    replace: "┥"
+
+  # BOX DRAWINGS UP HEAVY AND LEFT DOWN LIGHT
+  - trigger: ":box-u-heavy-dl:"
+    replace: "┦"
+
+  # BOX DRAWINGS DOWN HEAVY AND LEFT UP LIGHT
+  - trigger: ":box-d-heavy-ul:"
+    replace: "┧"
+
+  # BOX DRAWINGS VERTICAL HEAVY AND LEFT LIGHT
+  - trigger: ":box-ud-heavy-l:"
+    replace: "┨"
+
+  # BOX DRAWINGS DOWN LIGHT AND LEFT UP HEAVY
+  - trigger: ":box-d-ul-heavy:"
+    replace: "┩"
+
+  # BOX DRAWINGS UP LIGHT AND LEFT DOWN HEAVY
+  - trigger: ":box-u-dl-heavy:"
+    replace: "┪"
+
+  # BOX DRAWINGS HEAVY VERTICAL AND LEFT
+  - trigger: ":box-heavy-udl:"
+    replace: "┫"
+
+  # BOX DRAWINGS LIGHT DOWN AND HORIZONTAL
+  - trigger: ":box-dlr:"
+    replace: "┬"
+
+  # BOX DRAWINGS LEFT HEAVY AND RIGHT DOWN LIGHT
+  - trigger: ":box-l-heavy-dr:"
+    replace: "┭"
+
+  # BOX DRAWINGS RIGHT HEAVY AND LEFT DOWN LIGHT
+  - trigger: ":box-r-heavy-dl:"
+    replace: "┮"
+
+  # BOX DRAWINGS DOWN LIGHT AND HORIZONTAL HEAVY
+  - trigger: ":box-d-lr-heavy:"
+    replace: "┯"
+
+  # BOX DRAWINGS DOWN HEAVY AND HORIZONTAL LIGHT
+  - trigger: ":box-d-heavy-lr:"
+    replace: "┰"
+
+  # BOX DRAWINGS RIGHT LIGHT AND LEFT DOWN HEAVY
+  - trigger: ":box-r-dl-heavy:"
+    replace: "┱"
+
+  # BOX DRAWINGS LEFT LIGHT AND RIGHT DOWN HEAVY
+  - trigger: ":box-l-dr-heavy:"
+    replace: "┲"
+
+  # BOX DRAWINGS HEAVY DOWN AND HORIZONTAL
+  - trigger: ":box-heavy-dlr:"
+    replace: "┳"
+
+  # BOX DRAWINGS LIGHT UP AND HORIZONTAL
+  - trigger: ":box-ulr:"
+    replace: "┴"
+
+  # BOX DRAWINGS LEFT HEAVY AND RIGHT UP LIGHT
+  - trigger: ":box-l-heavy-ur:"
+    replace: "┵"
+
+  # BOX DRAWINGS RIGHT HEAVY AND LEFT UP LIGHT
+  - trigger: ":box-r-heavy-ul:"
+    replace: "┶"
+
+  # BOX DRAWINGS UP LIGHT AND HORIZONTAL HEAVY
+  - trigger: ":box-u-lr-heavy:"
+    replace: "┷"
+
+  # BOX DRAWINGS UP HEAVY AND HORIZONTAL LIGHT
+  - trigger: ":box-u-heavy-lr:"
+    replace: "┸"
+
+  # BOX DRAWINGS RIGHT LIGHT AND LEFT UP HEAVY
+  - trigger: ":box-r-ul-heavy:"
+    replace: "┹"
+
+  # BOX DRAWINGS LEFT LIGHT AND RIGHT UP HEAVY
+  - trigger: ":box-l-ur-heavy:"
+    replace: "┺"
+
+  # BOX DRAWINGS HEAVY UP AND HORIZONTAL
+  - trigger: ":box-heavy-ulr:"
+    replace: "┻"
+
+  # BOX DRAWINGS LIGHT VERTICAL AND HORIZONTAL
+  - trigger: ":box-udlr:"
+    replace: "┼"
+
+  # BOX DRAWINGS LEFT HEAVY AND RIGHT VERTICAL LIGHT
+  - trigger: ":box-l-heavy-udr:"
+    replace: "┽"
+
+  # BOX DRAWINGS RIGHT HEAVY AND LEFT VERTICAL LIGHT
+  - trigger: ":box-r-heavy-udl:"
+    replace: "┾"
+
+  # BOX DRAWINGS VERTICAL LIGHT AND HORIZONTAL HEAVY
+  - trigger: ":box-ud-lr-heavy:"
+    replace: "┿"
+
+  # BOX DRAWINGS UP HEAVY AND DOWN HORIZONTAL LIGHT
+  - trigger: ":box-u-heavy-dlr:"
+    replace: "╀"
+
+  # BOX DRAWINGS DOWN HEAVY AND UP HORIZONTAL LIGHT
+  - trigger: ":box-d-heavy-ulr:"
+    replace: "╁"
+
+  # BOX DRAWINGS VERTICAL HEAVY AND HORIZONTAL LIGHT
+  - trigger: ":box-ud-heavy-lr:"
+    replace: "╂"
+
+  # BOX DRAWINGS LEFT UP HEAVY AND RIGHT DOWN LIGHT
+  - trigger: ":box-ul-heavy-dr:"
+    replace: "╃"
+
+  # BOX DRAWINGS RIGHT UP HEAVY AND LEFT DOWN LIGHT
+  - trigger: ":box-ur-heavy-dl:"
+    replace: "╄"
+
+  # BOX DRAWINGS LEFT DOWN HEAVY AND RIGHT UP LIGHT
+  - trigger: ":box-dl-heavy-ur:"
+    replace: "╅"
+
+  # BOX DRAWINGS RIGHT DOWN HEAVY AND LEFT UP LIGHT
+  - trigger: ":box-dr-heavy-ul:"
+    replace: "╆"
+
+  # BOX DRAWINGS DOWN LIGHT AND UP HORIZONTAL HEAVY
+  - trigger: ":box-d-ulr-heavy:"
+    replace: "╇"
+
+  # BOX DRAWINGS UP LIGHT AND DOWN HORIZONTAL HEAVY
+  - trigger: ":box-u-dlr-heavy:"
+    replace: "╈"
+
+  # BOX DRAWINGS RIGHT LIGHT AND LEFT VERTICAL HEAVY
+  - trigger: ":box-r-udl-heavy:"
+    replace: "╉"
+
+  # BOX DRAWINGS LEFT LIGHT AND RIGHT VERTICAL HEAVY
+  - trigger: ":box-l-udr-heavy:"
+    replace: "╊"
+
+  # BOX DRAWINGS HEAVY VERTICAL AND HORIZONTAL
+  - trigger: ":box-heavy-udlr:"
+    replace: "╋"
+
+  # BOX DRAWINGS LIGHT DOUBLE DASH HORIZONTAL
+  - trigger: ":box-dash2-lr:"
+    replace: "╌"
+
+  # BOX DRAWINGS HEAVY DOUBLE DASH HORIZONTAL
+  - trigger: ":box-heavy-dash2-lr:"
+    replace: "╍"
+
+  # BOX DRAWINGS LIGHT DOUBLE DASH VERTICAL
+  - trigger: ":box-dash2-ud:"
+    replace: "╎"
+
+  # BOX DRAWINGS HEAVY DOUBLE DASH VERTICAL
+  - trigger: ":box-heavy-dash2-ud:"
+    replace: "╏"
+
+  # BOX DRAWINGS DOUBLE HORIZONTAL
+  - trigger: ":box-double-lr:"
+    replace: "═"
+
+  # BOX DRAWINGS DOUBLE VERTICAL
+  - trigger: ":box-double-ud:"
+    replace: "║"
+
+  # BOX DRAWINGS DOWN SINGLE AND RIGHT DOUBLE
+  - trigger: ":box-d-single-r-double:"
+    replace: "╒"
+
+  # BOX DRAWINGS DOWN DOUBLE AND RIGHT SINGLE
+  - trigger: ":box-d-double-r-single:"
+    replace: "╓"
+
+  # BOX DRAWINGS DOUBLE DOWN AND RIGHT
+  - trigger: ":box-double-dr:"
+    replace: "╔"
+
+  # BOX DRAWINGS DOWN SINGLE AND LEFT DOUBLE
+  - trigger: ":box-d-single-l-double:"
+    replace: "╕"
+
+  # BOX DRAWINGS DOWN DOUBLE AND LEFT SINGLE
+  - trigger: ":box-d-double-l-single:"
+    replace: "╖"
+
+  # BOX DRAWINGS DOUBLE DOWN AND LEFT
+  - trigger: ":box-double-dl:"
+    replace: "╗"
+
+  # BOX DRAWINGS UP SINGLE AND RIGHT DOUBLE
+  - trigger: ":box-u-single-r-double:"
+    replace: "╘"
+
+  # BOX DRAWINGS UP DOUBLE AND RIGHT SINGLE
+  - trigger: ":box-u-double-r-single:"
+    replace: "╙"
+
+  # BOX DRAWINGS DOUBLE UP AND RIGHT
+  - trigger: ":box-double-ur:"
+    replace: "╚"
+
+  # BOX DRAWINGS UP SINGLE AND LEFT DOUBLE
+  - trigger: ":box-u-single-l-double:"
+    replace: "╛"
+
+  # BOX DRAWINGS UP DOUBLE AND LEFT SINGLE
+  - trigger: ":box-u-double-l-single:"
+    replace: "╜"
+
+  # BOX DRAWINGS DOUBLE UP AND LEFT
+  - trigger: ":box-double-ul:"
+    replace: "╝"
+
+  # BOX DRAWINGS VERTICAL SINGLE AND RIGHT DOUBLE
+  - trigger: ":box-ud-single-r-double:"
+    replace: "╞"
+
+  # BOX DRAWINGS VERTICAL DOUBLE AND RIGHT SINGLE
+  - trigger: ":box-ud-double-r-single:"
+    replace: "╟"
+
+  # BOX DRAWINGS DOUBLE VERTICAL AND RIGHT
+  - trigger: ":box-double-udr:"
+    replace: "╠"
+
+  # BOX DRAWINGS VERTICAL SINGLE AND LEFT DOUBLE
+  - trigger: ":box-ud-single-l-double:"
+    replace: "╡"
+
+  # BOX DRAWINGS VERTICAL DOUBLE AND LEFT SINGLE
+  - trigger: ":box-ud-double-l-single:"
+    replace: "╢"
+
+  # BOX DRAWINGS DOUBLE VERTICAL AND LEFT
+  - trigger: ":box-double-udl:"
+    replace: "╣"
+
+  # BOX DRAWINGS DOWN SINGLE AND HORIZONTAL DOUBLE
+  - trigger: ":box-d-single-lr-double:"
+    replace: "╤"
+
+  # BOX DRAWINGS DOWN DOUBLE AND HORIZONTAL SINGLE
+  - trigger: ":box-d-double-lr-single:"
+    replace: "╥"
+
+  # BOX DRAWINGS DOUBLE DOWN AND HORIZONTAL
+  - trigger: ":box-double-dlr:"
+    replace: "╦"
+
+  # BOX DRAWINGS UP SINGLE AND HORIZONTAL DOUBLE
+  - trigger: ":box-u-single-lr-double:"
+    replace: "╧"
+
+  # BOX DRAWINGS UP DOUBLE AND HORIZONTAL SINGLE
+  - trigger: ":box-u-double-lr-single:"
+    replace: "╨"
+
+  # BOX DRAWINGS DOUBLE UP AND HORIZONTAL
+  - trigger: ":box-double-ulr:"
+    replace: "╩"
+
+  # BOX DRAWINGS VERTICAL SINGLE AND HORIZONTAL DOUBLE
+  - trigger: ":box-ud-single-lr-double:"
+    replace: "╪"
+
+  # BOX DRAWINGS VERTICAL DOUBLE AND HORIZONTAL SINGLE
+  - trigger: ":box-ud-double-lr-single:"
+    replace: "╫"
+
+  # BOX DRAWINGS DOUBLE VERTICAL AND HORIZONTAL
+  - trigger: ":box-double-udlr:"
+    replace: "╬"
+
+  # BOX DRAWINGS LIGHT ARC DOWN AND RIGHT
+  - trigger: ":box-arc-dr:"
+    replace: "╭"
+
+  # BOX DRAWINGS LIGHT ARC DOWN AND LEFT
+  - trigger: ":box-arc-dl:"
+    replace: "╮"
+
+  # BOX DRAWINGS LIGHT ARC UP AND LEFT
+  - trigger: ":box-arc-ul:"
+    replace: "╯"
+
+  # BOX DRAWINGS LIGHT ARC UP AND RIGHT
+  - trigger: ":box-arc-ur:"
+    replace: "╰"
+
+  # BOX DRAWINGS LIGHT DIAGONAL UPPER RIGHT TO LOWER LEFT
+  - trigger: ":box-diag-ur-dl:"
+    replace: "╱"
+
+  # BOX DRAWINGS LIGHT DIAGONAL UPPER LEFT TO LOWER RIGHT
+  - trigger: ":box-diag-ul-dr:"
+    replace: "╲"
+
+  # BOX DRAWINGS LIGHT DIAGONAL CROSS
+  - trigger: ":box-diag-cross:"
+    replace: "╳"
+
+  # BOX DRAWINGS LIGHT LEFT
+  - trigger: ":box-l:"
+    replace: "╴"
+
+  # BOX DRAWINGS LIGHT UP
+  - trigger: ":box-u:"
+    replace: "╵"
+
+  # BOX DRAWINGS LIGHT RIGHT
+  - trigger: ":box-r:"
+    replace: "╶"
+
+  # BOX DRAWINGS LIGHT DOWN
+  - trigger: ":box-d:"
+    replace: "╷"
+
+  # BOX DRAWINGS HEAVY LEFT
+  - trigger: ":box-heavy-l:"
+    replace: "╸"
+
+  # BOX DRAWINGS HEAVY UP
+  - trigger: ":box-heavy-u:"
+    replace: "╹"
+
+  # BOX DRAWINGS HEAVY RIGHT
+  - trigger: ":box-heavy-r:"
+    replace: "╺"
+
+  # BOX DRAWINGS HEAVY DOWN
+  - trigger: ":box-heavy-d:"
+    replace: "╻"
+
+  # BOX DRAWINGS LIGHT LEFT AND HEAVY RIGHT
+  - trigger: ":box-l-r-heavy:"
+    replace: "╼"
+
+  # BOX DRAWINGS LIGHT UP AND HEAVY DOWN
+  - trigger: ":box-u-d-heavy:"
+    replace: "╽"
+
+  # BOX DRAWINGS HEAVY LEFT AND LIGHT RIGHT
+  - trigger: ":box-l-heavy-r:"
+    replace: "╾"
+
+  # BOX DRAWINGS HEAVY UP AND LIGHT DOWN
+  - trigger: ":box-u-heavy-d:"
+    replace: "╿"

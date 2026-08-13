@@ -88,18 +88,25 @@ matches:
     replace: "§"
 
   # Directory-tree branches (Unicode box-drawing)
-  - trigger: ":dl:"
+  - trigger: ":dr:"
     replace: "└──"
 
-  - trigger: ":dld:"
+  - trigger: ":drd:"
     replace: "├──"
 
-  # Parent-level continuation; includes the four-space indent.
-  - trigger: ":dlv:"
-    replace: "│   "
+  # Horizontal mirror of :dr: for right-aligned trees.
+  - trigger: ":dl:"
+    replace: "──┘"
 
-  - trigger: ":dline:"
+  - trigger: ":dv:"
+    replace: "│"
+
+  - trigger: ":dh:"
     replace: "──"
+
+  # Short directional corner alias: left + down (same glyph as :box-dl:).
+  - trigger: ":ld:"
+    replace: "┐"
 
   # A small editable starter directory tree.
   - trigger: ":dt:"
