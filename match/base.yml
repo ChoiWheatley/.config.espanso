@@ -83,4 +83,7 @@ matches:
 
   - trigger: ":br:"
     replace: "https://github.com/curinginnos/racketime-api/tree/"
+
+  - trigger: ":section"
+    replace: "§"
   # And much more! For more information, visit the docs: https://espanso.org/docs/
